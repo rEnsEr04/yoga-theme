@@ -350,7 +350,7 @@ get_header();
                         <div class="blog_text">
                             <p><?php the_field('blogText'); ?></p>
                         </div>
-                        <button  id="post_btn" class="button_info">
+                        <button class="button_info">
                             <a href="<?php the_permalink(); ?>">Read more</a>
                         </button>
                     </div>

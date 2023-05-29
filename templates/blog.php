@@ -43,7 +43,7 @@ global $wp_query;
             <?php //wp_reset_postdata(); ?>
         </div>
 
-        <button id="load-more" class="btn_load_more">Load More</button>
+        <!-- <button id="load-more" class="btn_load_more">Load More</button> -->
     </article>
 
 <?php

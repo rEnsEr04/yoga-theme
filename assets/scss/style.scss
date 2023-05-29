@@ -12,12 +12,9 @@ a {
 .header{
     background-color: #fff;
     max-width: 100%;
-    //padding: 0 10px;
-    margin: auto;
     display: grid;
     grid-template-rows: [r0] 100px [r1];
     grid-template-columns: [c0] 50px [c1] auto [c2] 50px [c3];
-
 }
 .nav{
     display: grid;
@@ -318,7 +315,6 @@ a {
     grid-template-rows: [r0] 70px [r1] auto [r2] auto [r3];
     grid-template-columns: [c0] 50px [c1] auto [c2] 50px [c3]; 
     width: 100%;
-    //padding: 0 10px;
     background-color: rgb(247, 224, 227);
     .logo {
         margin: auto;
@@ -328,10 +324,6 @@ a {
         grid-column: c1 / c2;
     }
     h3 {
-        //position: relative;
-        //padding: 0 30px 0 30px;
-        //height: 10%;
-        //margin: 100px 0 10px 0;
         padding: 0 10px;
         align-self: center;
         text-align: center;
@@ -349,11 +341,9 @@ a {
         width: 90%;
         gap: 0 20px;
         li {
-            //padding: 0;
             list-style-type: none;
             display: inline-block;
             position: relative;
-            
             justify-self: center;
             .img_description {
                 width: 100%;
@@ -404,18 +394,13 @@ a {
     .about_more_elements1 , .about_more_elements2 {
         display: grid;
         grid-row: r1 / r2 ;
-        
-        //width: 50%;
         position: relative;
-        //margin: 70px 50px 70px 50px;
         h1 {
             font-family: 'Lobster Two', sans-serif;
         }
         .about_more_elements_img1 {
             display: inline-flex;
-            min-height: 280px;
-            //min-width: 400px;
-               
+            min-height: 280px;   
             img {
                 width: 100%;
                 object-fit: fill;
@@ -757,9 +742,11 @@ a {
         background-color: black;
     }
     .button_info {
-        background-color: #fff;
+        background-color: grey;
         border-color: black;
         font-size: large;
+        margin: 10px 0;
+        width: max-content;
         &:hover {
             background-color: pink;
             border-color: red;
@@ -779,26 +766,17 @@ a {
         .owl-stage-outer {
             overflow: hidden;
             .owl-stage {
-                // align-items: stretch;
-                // flex-wrap: nowrap;
                 display: flex;
             }
             .owl-item {
                 justify-content: center;
                 display: inline-flex;
-                //display: inline-block;
-                // width: 200px;
-                // position: relative;
                 img {
                     width: 100%;
                     height: auto;
-                    //object-fit: fill;
                 } 
             }
-        }
-       
-        // padding: 0 30px 0 30px;
-        
+        }   
     }
     
 }
@@ -825,7 +803,6 @@ footer {
     display: grid;
     grid-template-rows: [r0] auto [r1] auto [r2];
     grid-template-columns: [c0] 50px [c1] auto [c2] 50px [c3];
-    //width: 100%;
     p {
         margin: 0;
     }
@@ -953,8 +930,7 @@ footer {
     display: grid;
     grid-template-rows: [r0] 70px [r1] auto [r2] 70px [r3];
     grid-template-columns: [c0] 50px [c1] auto [c2] 50px [c3];
-    background-color: rgb(247, 224, 227);
-    
+    background-color: rgb(247, 224, 227); 
     .blogArea {
         display: inherit;
         grid-column: c1 / c2;
@@ -998,7 +974,6 @@ footer {
             // }
         }
     }
-    
     .blogPostNav {
         display: grid;
         grid-column: c1 /c2;
@@ -1032,7 +1007,6 @@ footer {
             // }
         }
     }
-
     .button_info {
         background-color: rgb(237, 227, 227, 0.9);
         color: black;
@@ -1042,7 +1016,6 @@ footer {
             color: #fff;
         }
     }
-
     #newWdth {
         max-width: 1220px;
         margin: auto;
@@ -1057,7 +1030,6 @@ footer {
         
         
     }
-
     .loadMore {
         display: grid;
         grid-row: r2/r3;

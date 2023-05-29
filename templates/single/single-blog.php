@@ -36,8 +36,8 @@ get_header();
 
                 the_post_navigation(
                     array(
-                        'prev_text' => '<button class="button_info">' . __( 'Prev chapter' ) . '</button>',
-                        'next_text' => '<button class="button_info">' . __( 'Next chapter' ) . '</button>', 
+                        'prev_text' => '<button class="button_info">' . __( 'Prev post' ) . '</button>',
+                        'next_text' => '<button class="button_info">' . __( 'Next post' ) . '</button>', 
                         //'in_same_term'				 => true,
 			            //'taxonomy'					 => __( 'post_tag' ),
 			            //'screen_reader_text' => __( 'Continue Reading' ),
